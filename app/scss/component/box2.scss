@@ -1,0 +1,67 @@
+#form2{
+    margin: 0 auto;
+    width: 604px;
+    height: 295px;
+    .form2-box{
+        .ac{
+            margin: 8px auto;
+            padding-bottom: 12px;
+            width: 588px;
+            height: 27px;
+            border-bottom: 1px solid #f2f2f2;
+           img{
+               width: 16px;
+               height: 22px;
+               margin-left: 18px;
+               margin-right: 72px;
+           }
+           input{
+                width: 350px;
+                height: 27px;
+                border: 0;
+           }
+           button{
+               background: #fe5478;
+               width: 100px;
+               height: 27px;
+               border: none;
+               border-radius: 5px;
+               color: #FFFFFF;
+           }
+        }
+        #form2-login{
+            background: #fe5478;
+            width: 588px;
+            height: 27px;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+            margin-top: 12px;
+        }
+        .form2-register{
+            font-size: 12px;
+            text-align: center;
+            display: block;
+            background: #fe5478;
+            width: 588px;
+            height: 27px;
+            line-height: 27px;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+            margin-top: 12px;
+        }
+        .form2-box-login{
+            margin-top: 12px;
+            font-size: 12px;
+            .form2-login-a1{
+                float: left;
+                color: #a8a8aa;
+            }
+            .form2-login-a2{
+                float: right;
+                color: #a8a8aa;
+            }
+        }
+    }    
+}

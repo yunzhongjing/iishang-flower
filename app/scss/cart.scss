@@ -1,0 +1,9 @@
+//引入css
+@import "component/reset.scss";
+@import "component/box-title.scss";
+
+//自身样式
+#cart-box{
+    margin: 0 auto;
+    width: 640px;
+}

@@ -1,0 +1,41 @@
+footer{ 
+    padding-top: 36px;
+    height: 265px;background: #404040;
+    float: left;
+    width: 100%;
+    #top{
+        height: 180px;width: 100%;
+        #whatsMore{
+            color: #d7d7d7;margin-left: 175px;font-family: 宋体;padding-left: 20px;width: 740px;height: 180px;float: left;
+            dl{
+                float: left;width: 180px;
+                dt{
+                    font-size: 20px;
+                }
+                dd{
+                    font-size: 12px;margin-top: 12px;
+                    a{
+                      color: #d7d7d7;  
+                    }
+                }
+            }
+        }
+        #weChatCode{
+            margin-left: 100px;width: 140px;float: left;
+            img{
+                width: 140px;height: 140px;
+            }
+            #wechat{
+                margin-top: 10px;color: #d7d7d7;text-align: center;
+            }
+        }
+    }
+    
+    #bottom{
+        height: 27px;width: 100%;color: #FFFFFF;margin-top: 10px;
+        span{
+            border-top: 2px solid #FFFFFF;margin: 0 auto;width: 1000px;display: block;font-size: 12px;padding-top: 12px;
+        }
+        
+    }
+}

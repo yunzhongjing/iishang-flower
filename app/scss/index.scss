@@ -1,0 +1,15 @@
+//引入css
+@import "component/reset.scss";
+@import "component/header.scss";
+@import "component/banner.scss";
+@import "component/main.scss";
+@import "component/footer.scss";
+
+//设置变量
+$weight: 400;
+
+
+//全局样式
+h1{
+	font-weight: $weight;
+}

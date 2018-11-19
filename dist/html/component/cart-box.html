@@ -1,0 +1,111 @@
+<!--//title-->
+<div id="box-title">
+	<div id="header"> 购物车</div>
+	<button type="button" id="fni-btn"class="ac">完成</button>
+	<button type="button" id="edit-btn" >编辑</button>
+	
+</div>
+<div id="add"></div>
+<script type="text/html" id="box-template">
+{{each json}}	
+<!--//list-->
+	<div class="box-list" id="box-list-{{$value.no}}">
+		
+		<!--//左边-->
+		<div id="left-{{$value.no}}" class="box-left">
+			<input type="checkbox" name="productions"  class="check-box"/>
+		</div>
+		
+		<!--//中间-->
+		<div id="middle-{{$value.no}}" class="box-middle">
+			<!--图片-->
+			<div id="pic-{{$value.no}}" class="box-pic">
+				<img src="/images/{{$value.no}}.jpg"/>
+			</div>
+			<!--文字部分-->
+			<div id="prodetail-{{$value.no}}" class="box-word">
+				<div id="p-name-{{$value.no}}" class="box-name">{{$value.name}}</div>
+				
+				<div id="p-int-{{$value.no}}" class="box-int">{{$value.name}}</div>
+				
+				<div id="p-price-{{$value.no}}" class="box-price">{{$value.price}}￥</div>
+				
+			</div>
+			
+		</div>
+		
+		<!--//右边-->
+		<section class="bd">{{$value.num}}</section>
+		<section class="ac">
+			<!--//减号-->
+			<div id="p-dec{{$value.no}}" class="ri-dec">
+				<button type="button" class="ri-dec-btn">-</button>
+			</div>
+			<!--//数量-->
+			<div id="p-num-{{$value.no}}" class="ri-num">{{$value.num}}</div>
+			<!--//加号-->
+			<div id="p-inc-{{$value.no}}" class="ri-inc">
+				<button type="button" class="ri-inc-btn">+</button>
+				
+			</div><br>
+			
+			<div class="ri-det">
+				<button type="button" class="ri-det-btn" id="{{$value.no}}">删除</button>
+			</div>
+		</section>
+	</div>
+{{/each}}
+</script>
+	
+
+
+<!--footer-->
+<div id="total-footer">
+	<!--//总计-->
+	<div id="total">
+		<!--左边-->
+		<div id="total-left">
+			<input type="checkbox" name="total-check" id="total-check" value="" />
+			<span>全选</span>
+		</div>
+		<!--右边-->
+		<div id="total-right">
+			<div id="total-price">合计：<span>￥</span></div>
+			
+		</div>
+		<div id="total-btn">
+			<button type="button">结算</button>
+		</div>
+	</div>
+	<!--links-->
+	<div id="links">
+		<!--//首页-->
+		<div class="link-index">
+			<a href="/index.html">
+				<img src="/images/kf2.png"/><br/>
+				<span>首页</span>
+			</a>
+		</div>
+		<!--//客服-->
+		<div class="link-service">
+			<a href="#">
+				<img src="/images/kf2.png"/><br/>
+				<span>客服</span>
+			</a>
+		</div>
+		<!--//购物车-->
+		<div class="link-cart">
+			<a href="/html/cart.html">
+				<img src="/images/kf2.png"/><br/>
+				<span>购物车</span>
+			</a>
+		</div>
+		<!--//个人中心-->
+		<div class="link-cart">
+			<a href="#">
+				<img src="/images/kf2.png"/><br/>
+				<span>我的</span>
+			</a>
+		</div>
+	</div>
+</div>

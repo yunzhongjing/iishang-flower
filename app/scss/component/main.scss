@@ -1,0 +1,100 @@
+main{
+    margin: 0 auto;
+    height: 917px;
+    width: 100%;
+    .title{
+        margin-top: 32px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .sub{
+        margin: 0 auto;
+        width: 1000px;
+        height: 375px;
+        .sub-left{
+            float: left;
+            width: 478px;
+            height: 375px;
+            a{
+                img{
+                display: block;
+                width: 478px;
+                height: 320px;
+                }
+            }
+            span{
+                padding-top: 17px;
+                display: block;
+                width: 478px;
+                height: 40px;
+                border-bottom: 1px solid #d4d4d4;
+                text-align: center;
+                font-family: 宋体;
+                font-size: 16px;
+                color: #727272;
+                b{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #000017;
+                }
+            }
+        }
+        .sub-right{
+            float: right;
+            width: 478px;
+            height: 375px;
+           a{
+                img{
+                display: block;
+                width: 478px;
+                height: 320px;
+                }
+            }
+            span{
+                padding-top: 17px;
+                display: block;
+                width: 478px;
+                height: 40px;
+                border-bottom: 1px solid #d4d4d4;
+                text-align: center;
+                font-family: 宋体;
+                font-size: 16px;
+                color: #727272;
+                b{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #000017;
+                }
+            }
+        }
+    }
+    .main{
+        margin: 0 auto;
+        width: 1000px;
+        height: 34px;
+        .main-title{
+            text-align: center;
+            margin: 30px auto;
+        }
+        .main-pic{
+            width: 1000px;
+            height: 300px;
+            .main-pic-left{
+                float: left;
+                width: 480px;
+                height: 300px;
+            }
+            .main-pic-right{
+                float: right;
+                width: 490px;
+                height: 269px;
+                img{
+                    display: block;
+                    width: 478px;
+                    height: 135px;
+                    padding-bottom: 26px;
+                }
+            }
+        }
+    }
+}
